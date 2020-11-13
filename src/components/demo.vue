@@ -1,6 +1,6 @@
 <template>
  <div>
-     <p>222ddfddfdd</p>
+     
  </div>
 </template>
 
@@ -8,7 +8,7 @@
  export default {
    data () {
      return {
-
+         aa:'123'
      }
    },
    components: {
