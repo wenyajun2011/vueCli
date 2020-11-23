@@ -2,16 +2,27 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Input :value="text"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Input  from './components/demo'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Input
+  },
+  data(){
+    return {
+      text:'我是父组件eeefdffdsfdfdfdsf'
+    }
+  },
+  methods: {
+   
   }
 }
 </script>
